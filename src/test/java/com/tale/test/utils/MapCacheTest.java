@@ -13,7 +13,7 @@ public class MapCacheTest extends ALLTests {
     private static MapCache mapCache;
     String name = "李俊薇";
     String schoolID = "SX1716006";
-    String field = "nuaa";
+    String field = "nuaacs";
 
     @Before
     public void before() {
