@@ -112,9 +112,9 @@ public class ArticleController extends BaseController {
 
         String  val   = request.address() + ":" + comments.getCid();
         Integer count = cache.hget(Types.COMMENTS_FREQUENCY, val);
-        if (null != count && count > 0) {
-            return RestResponse.fail("您发表评论太快了，请过会再试");
-        }
+//        if (null != count && count > 0) {
+//            return RestResponse.fail("您发表评论太快了，请过会再试");
+//        }
         comments.setIp(request.address());
         comments.setAgent(request.userAgent());
 

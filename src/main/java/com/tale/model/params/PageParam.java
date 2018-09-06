@@ -10,6 +10,6 @@ import lombok.Data;
 public class PageParam {
 
     private Integer page = 1;
-    private Integer limit = 12;
+    private Integer limit = 120;
 
 }
